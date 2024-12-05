@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav class="filter" id="filterContainer">
+        <span>Filter By: &nbsp; &nbsp;</span>
+        <button id="unread">Unread</button>
+        <button id="read">Read</button>
+        <button id="favorites">Favorites</button>
+      </nav>
+
+      <main id="emailContainer">
+        <!-- Content will be rendered here -->
+      </main>
+
+      <footer id="pagination">
+        <button id="prevPage">Previous</button>
+        <span id="pageIndicator">Page 1</span>
+        <button id="nextPage">Next</button>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

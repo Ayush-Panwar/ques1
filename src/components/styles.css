@@ -1,0 +1,85 @@
+.email {
+  /* width: 90vw; */
+  padding: 0.7rem 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #cfc2dc;
+  background-color: #fff;
+  cursor: pointer;
+  list-style: none;
+}
+.email.read {
+  background-color: #f2f2f2;
+}
+
+.email.selected {
+  border-color: #e54065;
+}
+
+.image {
+  padding: 0.6rem 1.1rem;
+  border-radius: 100%;
+  background-color: #e54065;
+  color: #fff;
+  font-weight: 500;
+  height: 33px;
+  font-size: x-large;
+}
+
+.emailDetails {
+  display: flex;
+  flex-direction: column;
+}
+.emailDetails span:nth-child(-n + 2) {
+  font-weight: bold;
+}
+
+.selectedEmail {
+  position: sticky;
+  padding: 2rem 2.5rem;
+  display: flex;
+  gap: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #cfc2dc;
+  top: 85px;
+  height: 77vh;
+  overflow: auto;
+  max-height: fit-content;
+  background-color: #fff;
+  width: 200vw;
+}
+
+.subjectFavoritesContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subjectFavoritesContainer button {
+  background-color: #e54065;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+  border: none;
+  height: 1.7rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.subjectFavoritesContainer span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.dateFavoriteContainer {
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.dateFavoriteContainer p {
+  padding: 0;
+  margin: 0;
+}
+.dateFavoriteContainer span {
+  color: #e54065;
+}
